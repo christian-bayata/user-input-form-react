@@ -1,0 +1,21 @@
+.button {
+  background: rgb(60, 21, 60);
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  border: 1px solid rgb(68, 17, 68);
+}
+
+.button:hover,
+.button:active {
+  border: rgb(100, 37, 100);
+  background: rgb(100, 37, 100);
+}
+
+.button:focus {
+  outline: none;
+}
